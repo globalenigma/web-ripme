@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ripme
+Exec=java -jar ripme.jar
+Type=Application
+StartupNotify=true
+Path=$HOME/
+Icon=$HOME/.icon/ripme.png
+StartupWMClass=ripme.jar

@@ -1,8 +1,7 @@
 [Desktop Entry]
-Name=Ripme
-Exec=java -jar ripme.jar
+Name=ripme
+Exec=vncpassword
 Type=Application
 StartupNotify=true
-Path=$HOME/
-Icon=$HOME/.icon/ripme.png
-StartupWMClass=ripme.jar
+Path=/headless/Downloads
+Icon=/headless/.icon/ripme.png

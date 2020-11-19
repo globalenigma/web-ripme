@@ -60,8 +60,9 @@ ADD ./src/common/xfce/ $HOME/
 RUN $INST_SCRIPTS/ripme.sh
 
 ## add desktop icon
-COPY files/ripme.desktop /home/user/Desktop/
-COPY files/ripme.png /home/user/.icon/
+COPY files/ripme.desktop $HOME/Desktop/
+COPY files/ripme.png $HOME/.icon/
+
 
 ### configure startup
 RUN $INST_SCRIPTS/libnss_wrapper.sh

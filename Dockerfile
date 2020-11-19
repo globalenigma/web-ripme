@@ -62,6 +62,7 @@ RUN $INST_SCRIPTS/ripme.sh
 ## add desktop icon
 COPY files/ripme.desktop $HOME/Desktop/
 COPY files/ripme.png $HOME/.icon/
+RUN chmod +x $HOME/Desktop/ripme.desktop
 
 ### configure startup
 RUN $INST_SCRIPTS/libnss_wrapper.sh

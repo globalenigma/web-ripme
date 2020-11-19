@@ -7,5 +7,4 @@ apt-get update
 apt-get install -y openjdk-8-jre
 wget -q https://github.com/RipMeApp/ripme/releases/download/1.7.93/ripme.jar
 chmod +x ripme.jar
-chmod +x /headless/Desktop/ripme.desktop
 apt-get clean -y

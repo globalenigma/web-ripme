@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=ripme
-Exec=vncpassword
+Exec=java -jar /headless/ripme.jar
 Type=Application
 StartupNotify=true
 Path=/headless/Downloads

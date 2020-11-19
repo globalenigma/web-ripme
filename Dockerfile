@@ -63,7 +63,6 @@ RUN $INST_SCRIPTS/ripme.sh
 COPY files/ripme.desktop $HOME/Desktop/
 COPY files/ripme.png $HOME/.icon/
 
-
 ### configure startup
 RUN $INST_SCRIPTS/libnss_wrapper.sh
 ADD ./src/common/scripts $STARTUPDIR
